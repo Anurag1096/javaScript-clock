@@ -1,0 +1,51 @@
+body {
+  background-color: #26001b;
+}
+.clock {
+  padding: 50px;
+  font-size: 90px;
+  width: 650px;
+  text-align: center;
+  border: 1px solid;
+  margin-left: 28%;
+  margin-top: 140px;
+  background-color: #440a67;
+  color: white;
+}
+
+.fulInfo {
+  font-size: 80px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  .clock {
+    width: 400px;
+    font-size: 60px;
+    margin-left: 15%;
+  }
+
+  .fulInfo {
+    width: 400px;
+    font-size: 50px;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .clock {
+    width: 200px;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  .fulInfo {
+    width: 200px;
+    font-size: 15px;
+    margin-left: 10%;
+  }
+}
